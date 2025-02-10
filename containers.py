@@ -2,6 +2,9 @@ name = ["Abel", "Abenezer"]
 numbers = [1, 2, 3]
 combo = ["Abel", 1, 2, 3]
 
+numbers[0] = "A"
+print(numbers)
+
 #Dictionary
 alphaNum = { 
     "One": 1,
@@ -10,9 +13,11 @@ alphaNum = {
 }
 #print(alphaNum["Two"])
 
-for items in alphaNum.keys():
-    print(alphaNum[items])
+coordinates = (2, 3)
+coordinates [0] = 10
 
+#for items in alphaNum.keys():
+    #print(alphaNum[items])
 #print(combo)
 
 #print(numbers[1])
