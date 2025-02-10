@@ -5,9 +5,11 @@
 #else:
     #print("Your are younger than 20")
 
+#num = 0
+#while num < 10:
+    #print(num)
+    #num = num + 1
 
-num = 0
-
-while num < 10:
+#for
+for num in range(10):
     print(num)
-    num = num + 1
