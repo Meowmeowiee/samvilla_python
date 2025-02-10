@@ -8,3 +8,5 @@ combo = ["Abel", 1, 2, 3]
 
 numbers.append(4)
 print(numbers)
+numbers.insert(1, 100)
+print(numbers)
