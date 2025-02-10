@@ -1,5 +1,7 @@
-file = open("Hello.txt", "w")
+file = open("Hello.txt", "r")
 # a-append r-read w-write
-file.write("Hello Ethiopia")
 
+numbers = file.readlines()
+for number in numbers:
+    print(number.strip())
 file.close()
