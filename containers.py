@@ -8,7 +8,10 @@ alphaNum = {
     "Two": 2,
     "Three": 3
 }
-print(alphaNum["Two"])
+#print(alphaNum["Two"])
+
+for items in alphaNum.keys():
+    print(alphaNum[items])
 
 #print(combo)
 
