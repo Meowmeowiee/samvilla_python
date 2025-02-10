@@ -4,5 +4,7 @@ combo = ["Abel", 1, 2, 3]
 
 #print(combo)
 
-for item in combo:
-    print(item)
+#print(numbers[1])
+
+numbers.append(4)
+print(numbers)
